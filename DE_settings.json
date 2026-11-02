@@ -1,0 +1,53 @@
+{
+  "DE": {
+    "strategy": "best1bin",
+    "F_mutation_range": [
+      0.5,
+      1
+    ],
+    "Cr_crossover_probability": 0.7,
+    "N_population_size": 72,
+    "D_parameters": 6,
+    "population_multiplier": 12,
+    "max_generations": 20,
+    "initialization": "latinhypercube",
+    "seed": 7,
+    "relative_tolerance": 0.01,
+    "absolute_tolerance": 0,
+    "updating": "immediate",
+    "workers": 1,
+    "polish": false
+  },
+  "bounds": {
+    "A_p": {
+      "min": 55000,
+      "max": 60000,
+      "unit": "s^-1"
+    },
+    "E_p": {
+      "min": 98000,
+      "max": 120000,
+      "unit": "J/mol"
+    },
+    "n_p": {
+      "min": 1.9,
+      "max": 2.2,
+      "unit": "dimensionless"
+    },
+    "A_R": {
+      "min": 75000,
+      "max": 82000,
+      "unit": "kg/m^2/s"
+    },
+    "E_R": {
+      "min": 310000,
+      "max": 330000,
+      "unit": "J/mol"
+    },
+    "a": {
+      "min": 1.5,
+      "max": 1.9,
+      "unit": "dimensionless"
+    }
+  }
+}
